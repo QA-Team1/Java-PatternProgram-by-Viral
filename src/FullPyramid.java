@@ -1,20 +1,23 @@
 import java.util.Scanner;
 
-public class DiamondShape {
+public class FullPyramid {
 
 	public static void main(String[] args) {
-
+	
 		System.out.println("enter number of rows to print");
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		
-		for (int i=n; i>=1; i--) {
-			for (int j =i; j>=1; j--) {
+		for (int i=1; i<=n; i++) {
+			for (int k=n-i; k>=1; k--){
+				System.out.print(" ");
+			}
+			for (int j=1; j<=i; j++) {
 				System.out.print("* ");
 			}
 			System.out.println("");
 		}
 
-		}
 	}
 
+}

@@ -18,6 +18,7 @@ public class InvertedFullPyramid {
 			}
 			System.out.println("");
 		}
+		System.out.println("Press y to continue otherwise end");
 	}
 
 }
